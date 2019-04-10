@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:VCA-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -934,17 +933,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 1050 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L uRack:Conn_01x05_Male J4
-U 1 1 5C9D6F13
-P 3700 4050
-F 0 "J4" H 3673 3980 50  0000 R CNN
-F 1 "Conn_01x05_Male" H 3673 4071 50  0000 R CNN
-F 2 "footprint:pls1x05" H 3700 4050 50  0001 C CNN
-F 3 "" H 3700 4050 50  0001 C CNN
-	1    3700 4050
-	-1   0    0    1   
-$EndComp
-$Comp
 L uRack:Conn_01x05_Male J5
 U 1 1 5C9D702F
 P 3700 4550
@@ -964,17 +952,6 @@ F 1 "Conn_01x05_Male" H 3673 5071 50  0000 R CNN
 F 2 "footprint:pls1x05" H 3700 5050 50  0001 C CNN
 F 3 "" H 3700 5050 50  0001 C CNN
 	1    3700 5050
-	-1   0    0    1   
-$EndComp
-$Comp
-L uRack:Conn_01x05_Male J7
-U 1 1 5C9D71FC
-P 3200 5450
-F 0 "J7" H 3173 5380 50  0000 R CNN
-F 1 "Conn_01x05_Male" H 3173 5471 50  0000 R CNN
-F 2 "footprint:pls1x05" H 3200 5450 50  0001 C CNN
-F 3 "" H 3200 5450 50  0001 C CNN
-	1    3200 5450
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1002,34 +979,23 @@ $EndComp
 $Comp
 L uRack:Conn_01x05_Male J9
 U 1 1 5CA0C275
-P 3700 6100
-F 0 "J9" H 3673 6030 50  0000 R CNN
-F 1 "Conn_01x05_Male" H 3673 6121 50  0000 R CNN
-F 2 "footprint:pls1x05" H 3700 6100 50  0001 C CNN
-F 3 "" H 3700 6100 50  0001 C CNN
-	1    3700 6100
-	-1   0    0    1   
-$EndComp
-$Comp
-L uRack:Conn_01x05_Male J11
-U 1 1 5CA0C343
-P 3700 6600
-F 0 "J11" H 3673 6530 50  0000 R CNN
-F 1 "Conn_01x05_Male" H 3673 6621 50  0000 R CNN
-F 2 "footprint:pls1x05" H 3700 6600 50  0001 C CNN
-F 3 "" H 3700 6600 50  0001 C CNN
-	1    3700 6600
+P 3700 6850
+F 0 "J9" H 3673 6780 50  0000 R CNN
+F 1 "Conn_01x05_Male" H 3673 6871 50  0000 R CNN
+F 2 "footprint:pls1x05" H 3700 6850 50  0001 C CNN
+F 3 "" H 3700 6850 50  0001 C CNN
+	1    3700 6850
 	-1   0    0    1   
 $EndComp
 $Comp
 L uRack:Conn_01x05_Male J12
 U 1 1 5CA0C41E
-P 3700 7100
-F 0 "J12" H 3673 7030 50  0000 R CNN
-F 1 "Conn_01x05_Male" H 3673 7121 50  0000 R CNN
-F 2 "footprint:pls1x05" H 3700 7100 50  0001 C CNN
-F 3 "" H 3700 7100 50  0001 C CNN
-	1    3700 7100
+P 3700 7350
+F 0 "J12" H 3673 7280 50  0000 R CNN
+F 1 "Conn_01x05_Male" H 3673 7371 50  0000 R CNN
+F 2 "footprint:pls1x05" H 3700 7350 50  0001 C CNN
+F 3 "" H 3700 7350 50  0001 C CNN
+	1    3700 7350
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -1037,39 +1003,15 @@ Wire Wire Line
 Wire Wire Line
 	3400 5250 3400 5150
 Wire Wire Line
-	3400 3850 3500 3850
+	3500 6650 3450 6650
 Wire Wire Line
-	3500 5900 3450 5900
+	3450 6650 3450 6750
 Wire Wire Line
-	3450 5900 3450 6000
-Wire Wire Line
-	3450 7300 3500 7300
+	3450 7550 3500 7550
 Wire Wire Line
 	3000 6650 2950 6650
 Wire Wire Line
 	2950 6650 2950 6550
-Wire Wire Line
-	2950 5250 3000 5250
-Wire Wire Line
-	3000 5350 2950 5350
-Connection ~ 2950 5350
-Wire Wire Line
-	2950 5350 2950 5250
-Wire Wire Line
-	3000 5450 2950 5450
-Connection ~ 2950 5450
-Wire Wire Line
-	2950 5450 2950 5350
-Wire Wire Line
-	3000 5550 2950 5550
-Connection ~ 2950 5550
-Wire Wire Line
-	2950 5550 2950 5450
-Wire Wire Line
-	3000 5650 2950 5650
-Connection ~ 2950 5650
-Wire Wire Line
-	2950 5650 2950 5550
 Wire Wire Line
 	3000 5750 2950 5750
 Connection ~ 2950 5750
@@ -1116,95 +1058,34 @@ Connection ~ 2950 6550
 Wire Wire Line
 	2950 6550 2950 6450
 Wire Wire Line
-	3500 7200 3450 7200
-Connection ~ 3450 7200
+	3500 7450 3450 7450
 Wire Wire Line
-	3450 7200 3450 7300
+	3500 7350 3450 7350
+Connection ~ 3450 7550
 Wire Wire Line
-	3500 7100 3450 7100
-Connection ~ 3450 7100
+	3450 7250 3500 7250
 Wire Wire Line
-	3450 7100 3450 7200
+	3500 7150 3450 7150
 Wire Wire Line
-	3450 7000 3500 7000
-Connection ~ 3450 7000
+	3500 7050 3450 7050
+Connection ~ 3450 7050
 Wire Wire Line
-	3450 7000 3450 7100
+	3500 6950 3450 6950
+Connection ~ 3450 6950
 Wire Wire Line
-	3500 6900 3450 6900
-Connection ~ 3450 6900
+	3450 6950 3450 7050
 Wire Wire Line
-	3450 6900 3450 7000
+	3500 6850 3450 6850
+Connection ~ 3450 6850
 Wire Wire Line
-	3500 6800 3450 6800
-Connection ~ 3450 6800
+	3450 6850 3450 6950
 Wire Wire Line
-	3450 6800 3450 6900
+	3500 6750 3450 6750
+Connection ~ 3450 6750
 Wire Wire Line
-	3500 6700 3450 6700
-Connection ~ 3450 6700
-Wire Wire Line
-	3450 6700 3450 6800
-Wire Wire Line
-	3500 6600 3450 6600
-Connection ~ 3450 6600
-Wire Wire Line
-	3450 6600 3450 6700
-Wire Wire Line
-	3500 6500 3450 6500
-Connection ~ 3450 6500
-Wire Wire Line
-	3450 6500 3450 6600
-Wire Wire Line
-	3500 6400 3450 6400
-Connection ~ 3450 6400
-Wire Wire Line
-	3450 6400 3450 6500
-Wire Wire Line
-	3500 6300 3450 6300
-Connection ~ 3450 6300
-Wire Wire Line
-	3450 6300 3450 6400
-Wire Wire Line
-	3500 6200 3450 6200
-Connection ~ 3450 6200
-Wire Wire Line
-	3450 6200 3450 6300
-Wire Wire Line
-	3500 6100 3450 6100
-Connection ~ 3450 6100
-Wire Wire Line
-	3450 6100 3450 6200
-Wire Wire Line
-	3500 6000 3450 6000
-Connection ~ 3450 6000
-Wire Wire Line
-	3450 6000 3450 6100
-Wire Wire Line
-	3500 3950 3400 3950
-Connection ~ 3400 3950
-Wire Wire Line
-	3400 3950 3400 3850
-Wire Wire Line
-	3500 4050 3400 4050
-Connection ~ 3400 4050
-Wire Wire Line
-	3400 4050 3400 3950
-Wire Wire Line
-	3400 4150 3500 4150
-Connection ~ 3400 4150
-Wire Wire Line
-	3400 4150 3400 4050
-Wire Wire Line
-	3500 4250 3400 4250
-Connection ~ 3400 4250
-Wire Wire Line
-	3400 4250 3400 4150
+	3450 6750 3450 6850
 Wire Wire Line
 	3500 4350 3400 4350
-Connection ~ 3400 4350
-Wire Wire Line
-	3400 4350 3400 4250
 Wire Wire Line
 	3500 4450 3400 4450
 Connection ~ 3400 4450
@@ -1257,7 +1138,21 @@ Wire Wire Line
 Wire Wire Line
 	1550 6050 2350 6050
 Wire Wire Line
-	2350 6050 2350 7100
+	2350 7550 3450 7550
 Wire Wire Line
-	2350 7100 3450 7100
+	3450 7050 3450 7150
+Connection ~ 3450 7150
+Wire Wire Line
+	3450 7150 3450 7250
+Connection ~ 3450 7250
+Wire Wire Line
+	3450 7250 3450 7350
+Connection ~ 3450 7350
+Wire Wire Line
+	3450 7350 3450 7450
+Connection ~ 3450 7450
+Wire Wire Line
+	3450 7450 3450 7550
+Wire Wire Line
+	2350 6050 2350 7550
 $EndSCHEMATC
